@@ -22,7 +22,7 @@ const Home = () => {
             <AreaContainer>
                 <BodyTitulo>
                     <Titulo>Trabalhem juntos e alcancem mais</Titulo>
-                    <SubTitulo>Colabore com suas equipes, use ferramentas de gerenciamento que sincronizam com seus projetos e codifique de qualquer lugar, tudo em uma plataforma única e integrada.</SubTitulo>
+                    <SubTitulo>Simplifique a busca por códigos, gerencie colaborações e mantenha tudo sincronizado em uma plataforma integrada.</SubTitulo>
                 </BodyTitulo>
                 <Form onSubmit={handleData}>
                     <Input type='text' placeholder='Pesquisar Usuário' name='username' />
