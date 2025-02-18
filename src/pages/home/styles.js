@@ -25,7 +25,9 @@ export const AreaContainer = styled.div`
     row-gap: 20px;
 `;
 export const BodyTitulo = styled.div`
-
+@media (max-width: 700px) {
+        text-align: center;
+    }
 `;
 export const Titulo = styled.h1`
     color: #fff;
@@ -52,10 +54,12 @@ export const Project = styled.a`
     max-width: 350px;
     min-width: 150px;
     color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     background: rgba(2, 1, 1, 0.5);
     backdrop-filter: blur(15px);
     text-decoration: none;
-    text-align: center;
     border: solid 1px green;
 `;
 export const Form = styled.form`
@@ -65,6 +69,10 @@ export const Form = styled.form`
     justify-content: center;
     background-color: #e8f0fe;
     border: solid 1px green;
+    @media (max-width: 700px) {
+        flex-direction: column;
+        row-gap: 10px;
+    }
 `;
 export const Input = styled.input`
     padding: 10px;
@@ -82,4 +90,5 @@ export const Button = styled.button`
     padding: 15px;
     border-radius: 5px;
     font-weight: bold;
+    
 `;
