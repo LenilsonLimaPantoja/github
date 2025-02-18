@@ -25,7 +25,7 @@ const Home = () => {
                     <SubTitulo>Colabore com suas equipes, use ferramentas de gerenciamento que sincronizam com seus projetos e codifique de qualquer lugar, tudo em uma plataforma única e integrada.</SubTitulo>
                 </BodyTitulo>
                 <Form onSubmit={handleData}>
-                    <Input type='text' placeholder='Pesquisar' name='username' />
+                    <Input type='text' placeholder='Pesquisar Usuário' name='username' />
                     <Button>Buscar no GitHub</Button>
                 </Form>
                 <BodyProjects>
